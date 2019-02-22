@@ -1,6 +1,9 @@
 language: go
+os:
+  - linux
+  - windows
 go:
-- tip
+  - tip
 script:
   - make lint
   - make test
